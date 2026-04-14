@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes & Ladders Algorithm Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <h1>Snakes & Ladders</h1>
+            <p id="status-message">Roll the dice to start the game!</p>
+        </header>
+
+        <main class="game-main">
+            <div class="board-wrapper">
+                <div id="board" class="board"></div>
+                <svg id="lines-overlay"></svg>
+                <div id="player" class="player-token"></div>
+            </div>
+
+            <aside class="controls">
+                <div class="dice-wrapper">
+                    <div id="dice" class="dice">🎲</div>
+                </div>
+                <div class="buttons">
+                    <button id="roll-btn" class="btn primary-btn">Roll Dice</button>
+                    <button id="restart-btn" class="btn secondary-btn">Restart Game</button>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
