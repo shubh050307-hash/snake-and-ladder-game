@@ -114,15 +114,30 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: clamp(20px, 4vw, 35px);
-    height: clamp(20px, 4vw, 35px);
-    background: radial-gradient(circle at 30% 30%, #60a5fa, #1e3a8a);
+    width: clamp(20px, 4vw, 32px);
+    height: clamp(20px, 4vw, 32px);
     border: 2px solid white;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     z-index: 20;
     transition: transform 0.3s ease-in-out;
     transform: translate(-100px, -100px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Distinct Player Colors */
+.p1 {
+    background: radial-gradient(circle at 30% 30%, #60a5fa, #1e3a8a);
+}
+
+.p2 {
+    background: radial-gradient(circle at 30% 30%, #f87171, #991b1b);
+    z-index: 21; /* Keep P2 slightly above P1 if on same square */
 }
 
 .controls {
