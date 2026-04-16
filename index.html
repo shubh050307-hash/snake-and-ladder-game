@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snakes & Ladders Algorithm Edition</title>
+    <title>Snakes & Ladders - 2 Player Edition</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="game-container">
         <header class="game-header">
             <h1>Snakes & Ladders</h1>
-            <p id="status-message">Roll the dice to start the game!</p>
+            <p id="status-message">Player 1 (Blue) - Roll the dice to start!</p>
         </header>
 
         <main class="game-main">
             <div class="board-wrapper">
                 <div id="board" class="board"></div>
                 <svg id="lines-overlay"></svg>
-                <div id="player" class="player-token"></div>
+                <div id="player0" class="player-token p1">P1</div>
+                <div id="player1" class="player-token p2">P2</div>
             </div>
 
             <aside class="controls">
