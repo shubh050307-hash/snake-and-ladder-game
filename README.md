@@ -1,5 +1,6 @@
 This is a college level project of snake and ladder game made using html , tailwind css and vanilla js
 This is a game made completely on web using the layer of gemini 
+
 Features:- 
 1 - takes inputs from the user with the help of a single click
 2 - after the click the dice rolls 
